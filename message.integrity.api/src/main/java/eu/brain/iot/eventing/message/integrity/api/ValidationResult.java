@@ -13,6 +13,6 @@ package eu.brain.iot.eventing.message.integrity.api;
 public enum ValidationResult {
 	
 	// TODO - other states e.g. expired token, expired certificate, untrusted certificate?
-	VALID, INVALID, MISSING, ILLEGAL_SIGNATURE;
+	VALID, INVALID, TOO_EARLY, EXPIRED, MISSING, ILLEGAL_SIGNATURE, INVALID_CERTIFICATE;
 
 }
